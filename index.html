@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>freedom and profession</title>
+  <style>
+    /* General Reset */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Header Section */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      color: #fff;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+  </nav>  
+    <a href="index.html">home</a>
+    <a href="about.html">about</a>
+    <a href="content.html">content</a>
+  </nav>  
+    header h1 {
+      font-size: 1.8em;
+      cursor: pointer;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #f4a261;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url('https://source.unsplash.com/1600x900/?nature,technology') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: rgb(140, 13, 13);
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      animation: fadeInDown 1.5s ease;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    .hero button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #6a11cb;
+      border: none;
+      color: white;
+      font-size: 1.2em;
+      border-radius: 5px;
+      cursor: pointer;
+      animation: fadeInUp 2s ease;
+      transition: background 0.3s ease;
+    }
+
+    .hero button:hover {
+      background: #2575fc;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 50px 10%;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      width: 250px;
+      padding: 20px;
+      border-radius: 10px;
+      background: #f4f4f9;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Footer Section */
+    footer {
+      background: #222;
+      color: rgba(211, 248, 5, 0.884);
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Website</h1>
+    <br>
+    <nav>
+      <a href="#about">About</a><br>
+      <a href="#features">Features</a><br>
+      <a href="#contact">Contact</a><br>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div>
+      <h1>Welcome to My Animated Website</h1>
+      <p>Explore creativity with modern design and animations.</p>
+      <button>Learn More</button>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p> This is a study website created using HTML and CSS.<br>
+
+        እንካዕ ናብ ሞያን ነጻነትን ብደሓን መጻኹም<br>
+        
+        ሞያን ነጻነትን ኣብ ምስልጣን ህጻናት ተምሃሮ፣ ስልጠና ስነ ኣእምሮን ስልጠና ኮምፒዩተር ብነጻ ግልጋሎትን ተመጣጣኒ ክፍሊት ኣድሂቡ ዝሰርሕ እዩ።
+        
+        .</p>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Our Features</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>teaching</h3>
+        <p>teaching-fast performance for all your needs.</p>
+      </div>
+      <div class="card">
+        <h3>counsel</h3>
+        <p>Modern training that stand out from the mental strengthening.</p>
+      </div>
+      <div class="card">
+        <h3>health</h3>
+        <p>Works in  on all kinds  of health.</p>
+      </div>
+    </div>
+  </section>
+  <style>
+.social-iconic img{ 
+  width: 30px;
+  height: 30px;
+}
+  </style>
+  <footer>
+    <p>© 2025 My Website. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/bereketgebremedhn43" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/bereketgebremedhn43" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+      </a>
+      <a href="https://t.me/Gab712best" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+      </a>
+    </div>
+  </footer>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My Website. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
